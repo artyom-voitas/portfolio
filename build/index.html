@@ -4,12 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="./assets/css/vendors.min.css">
     <link rel="stylesheet" href="./assets/css/app.css">
   </head>
   <body> 
-    <header> </header>
+    <header class="header">
+      <div class="container">
+        <div class="header__title">Frontend developer portfolio</div>
+      </div>
+    </header>
+    <div class="main container">
+      <h2 class="main__title">About me</h2>
+      <div class="main__content">
+        <div> 
+          <p>My name is Artyom Voitas. I'm 21 years old and I live in Minsk (Belarus). I'm 4th year student of the the Belarusian State Economic University. </p>
+          <p>In May 2022, Graduated from IT SHATLE courses with honors (HTML/CSS) and currently i'm learning JavaScript + React (also in IT SHATLE).</p>
+          <p>I want to become a frontend developer.</p>
+        </div><img src="./assets/imgs/my-photo.jpeg" alt="Avatar">
+      </div>
+    </div>
+    <div class="main container">
+      <h2 class="main__title">Skills</h2>
+      <div class="skills">
+            <div class="skill">
+              <div class="skill__img"> <img src="./assets/imgs/html5.svg" alt="HTML5"></div>
+              <div class="skill__title">HTML5</div>
+            </div>
+            <div class="skill">
+              <div class="skill__img"> <img src="./assets/imgs/css3.svg" alt="CSS3"></div>
+              <div class="skill__title">CSS3</div>
+            </div>
+            <div class="skill">
+              <div class="skill__img"> <img src="./assets/imgs/pug.svg" alt="Pug"></div>
+              <div class="skill__title">Pug</div>
+            </div>
+            <div class="skill">
+              <div class="skill__img"> <img src="./assets/imgs/sass.svg" alt="SCSS"></div>
+              <div class="skill__title">SCSS</div>
+            </div>
+            <div class="skill">
+              <div class="skill__img"> <img src="./assets/imgs/gulp.svg" alt="Gulp"></div>
+              <div class="skill__title">Gulp</div>
+            </div>
+      </div>
+    </div>
+    <section class="main"> 
+      <div class="container"> 
+        <h2 class="main__title">Works </h2>
+        <div class="works">
+              <div class="work"> <a class="work__link" href="https://artyom-voitas.github.io/diploma_artyom_voitas/build/" target="_blank">
+                  <figure class="work__img"><img src="./assets/imgs/work_6.png" alt="Techs: HTML, CSS, JS"></figure><span class="work__content"> <span class="work__tech">Techs: HTML, CSS, JS</span><span class="work__time">Time: 48 hours</span></span></a></div>
+              <div class="work"> <a class="work__link" href="https://artyom-voitas.github.io/dz4_artyom_voitas/" target="_blank">
+                  <figure class="work__img"><img src="./assets/imgs/work_4.png" alt="Techs: HTML, CSS"></figure><span class="work__content"> <span class="work__tech">Techs: HTML, CSS</span><span class="work__time">Time: 24 hours</span></span></a></div>
+              <div class="work"> <a class="work__link" href="https://artyom-voitas.github.io/dz5_artyom_voitas/build" target="_blank">
+                  <figure class="work__img"><img src="./assets/imgs/work_5.png" alt="Techs: HTML, CSS, JS"></figure><span class="work__content"> <span class="work__tech">Techs: HTML, CSS, JS</span><span class="work__time">Time: 8 hours</span></span></a></div>
+              <div class="work"> <a class="work__link" href="https://artyom-voitas.github.io/dz3_artyom_voitas/" target="_blank">
+                  <figure class="work__img"><img src="./assets/imgs/work_3.png" alt="Techs: HTML, CSS"></figure><span class="work__content"> <span class="work__tech">Techs: HTML, CSS</span><span class="work__time">Time: 12 hours</span></span></a></div>
+              <div class="work"> <a class="work__link" href="https://artyom-voitas.github.io/dz2_artyom_voitas/" target="_blank">
+                  <figure class="work__img"><img src="./assets/imgs/work_2.png" alt="Techs: HTML, CSS"></figure><span class="work__content"> <span class="work__tech">Techs: HTML, CSS</span><span class="work__time">Time: 3 hours</span></span></a></div>
+              <div class="work"> <a class="work__link" href="https://artyom-voitas.github.io/dz1_artyom_voitas/" target="_blank">
+                  <figure class="work__img"><img src="./assets/imgs/work_1.png" alt="Techs: HTML, CSS"></figure><span class="work__content"> <span class="work__tech">Techs: HTML, CSS</span><span class="work__time">Time: 2 hours</span></span></a></div>
+        </div>
+      </div>
+    </section>
     <script src="./assets/js/vendors.min.js"></script>
     <script src="./assets/js/app.js"></script>
   </body>

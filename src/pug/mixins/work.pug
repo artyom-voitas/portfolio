@@ -1,0 +1,8 @@
+mixin work(args={})
+    .work 
+        a(href=args.link target="_blank").work__link
+            figure.work__img
+                img(src=args.img, alt=args.tech)
+            span.work__content 
+                span.work__tech=args.tech 
+                span.work__time=args.time 
